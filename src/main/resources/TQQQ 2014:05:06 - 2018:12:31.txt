@@ -1,0 +1,56 @@
+This is with TQQQ date from 2014/05/06 - 2018/12/31
+2018/12/31 is in a deep bottom
+
+for (double i = 0.05; i <= 0.5; i+=0.01) { // minimumDownPercentage
+			for (double j = 0.05; j <= 0.5; j+=0.01) { // sellTriggerPercentage
+-----------------------------------
+Best params : minimumDownPercentage : 0.4200000000000002 sellTriggerPercentage 0.3000000000000001
+Best strategy profit : 33.6
+Holding profit : 21.72
+----------------------------------- best case ------------------------------
+There are 1 transaction happened in total
+Buy date : 21-Aug-2015 | Buy Price : 15.32 | Buy Reason : High 20-Jul-2015 21.2333 Low 08-May-2014 9.7
+Sell date : 24-Oct-2018 | Sell Price : 48.92 | Sell Reason : Profit Taking
+Calculating strategy profit ......
+Calculating holding profit ......
+Best strategy profit : 33.6
+Holding profit : 21.72
+
+
+
+
+
+for (double i = 0.05; i <= 0.5; i+=0.01) { // minimumDownPercentage
+			for (double j = 0.05; j <= 0.5; j+=0.01) { // sellTriggerPercentage
+				for (double k = 0.1; k <= 0.5; k+=0.01) { // upPercentageToBuy
+
+-----------------------------------
+Best params : minimumDownPercentage : 0.13999999999999999 sellTriggerPercentage 0.08 upPercentageToBuy0.41000000000000025
+Best strategy profit : 37.72739999999999
+Holding profit : 25.1233
+----------------------------------- best case ------------------------------
+There are 10 transaction happened in total
+Buy date : 13-Oct-2014 | Buy Price : 11.9167 | Buy Reason : High 18-Sep-2014 15.0117 Low 08-May-2014 9.7
+Sell date : 12-Dec-2014 | Sell Price : 15.8892 | Sell Reason : Profit Taking
+Buy date : 09-Jan-2015 | Buy Price : 15.8883 | Buy Reason : High 28-Nov-2014 17.5633 Low 16-Dec-2014 14.6483
+Sell date : 15-Jan-2015 | Sell Price : 14.5483 | Sell Reason : Stop Loss
+Buy date : 03-Feb-2015 | Buy Price : 15.9333 | Buy Reason : High 28-Nov-2014 17.5633 Low 15-Jan-2015 14.5483
+Sell date : 10-Mar-2015 | Sell Price : 17.175 | Sell Reason : Profit Taking
+Buy date : 08-Jun-2015 | Buy Price : 18.2167 | Buy Reason : High 27-May-2015 19.6717 Low 11-Mar-2015 16.8733
+Sell date : 27-Jul-2015 | Sell Price : 19.155 | Sell Reason : Profit Taking
+Buy date : 15-Sep-2015 | Buy Price : 16.6517 | Buy Reason : High 20-Jul-2015 21.2333 Low 25-Aug-2015 13.3267
+Sell date : 05-Feb-2016 | Sell Price : 12.485 | Sell Reason : Stop Loss
+Buy date : 11-Mar-2016 | Buy Price : 15.7283 | Buy Reason : High 20-Jul-2015 21.2333 Low 09-Feb-2016 11.7767
+Sell date : 01-Nov-2016 | Sell Price : 20.0233 | Sell Reason : Profit Taking
+Buy date : 07-Nov-2016 | Buy Price : 20.0667 | Buy Reason : High 24-Oct-2016 21.8517 Low 04-Nov-2016 18.725
+Sell date : 12-Jun-2017 | Sell Price : 33.8 | Sell Reason : Profit Taking
+Buy date : 09-Feb-2018 | Buy Price : 45.3767 | Buy Reason : High 26-Jan-2018 60.6633 Low 03-Jul-2017 31.6667
+Sell date : 19-Mar-2018 | Sell Price : 55.3333 | Sell Reason : Profit Taking
+Buy date : 17-Apr-2018 | Buy Price : 52.7233 | Buy Reason : High 12-Mar-2018 62.16 Low 02-Apr-2018 43.7133
+Sell date : 25-Jun-2018 | Sell Price : 57.18 | Sell Reason : Profit Taking
+Buy date : 31-Jul-2018 | Buy Price : 61.43 | Buy Reason : High 25-Jul-2018 68.68 Low 27-Jun-2018 55.49
+Sell date : 07-Sep-2018 | Sell Price : 66.07 | Sell Reason : Profit Taking
+Calculating strategy profit ......
+Calculating holding profit ......
+Best strategy profit : 37.72739999999999
+Holding profit : 25.1233

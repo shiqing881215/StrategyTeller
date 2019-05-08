@@ -1,0 +1,47 @@
+From two result files
+TQQQ 2014:05:06 - 2018:12:31.txt
+TQQQ 2014:05:06 - 2019:05:06.txt
+
+Something we need to clarify first : 
+1) I don't think it's a self deception proof. 
+   I'm not going to get the best profit from history data
+   What I'm doing is set a strategy first, follow that strategy
+   and calculate the profit.
+   The strategy has a few variables, so by comparing different variable 
+   combination. We can know the one to get most profit
+2) I'm NOT predicting future price. What I want to do is 
+   stick with strategy and see whether it can beat if I just hold it. 
+   Ideally, we should use future data to test this. (I don't do here)
+
+We can see a few insights : 
+1) Consider all 3 variables (minimumDownPercentage/sellTriggerPercentage/upPercentageToBuy)
+   can get better result than 2 variables (minimumDownPercentage/sellTriggerPercentage)
+2) Both situation, strategy can works better than holding
+   64.1 vs 51.0 (25.7%)(2014/05/06 - 2019/05/06)
+   37.7 vs 25.1 (48.6%)(2014/05/06 - 2018/12/31)
+3) Then could you say we should use strategy than holding ? Not really
+   Because to use strategy, you have to figure the best combination of all variables 
+   but the best combination of 3 variables really depends on the ending price
+   And a lot of variable combination actually can NOT win by just holding
+   
+   This is the simple compare of the best variable results in two data sets as 
+   42% 30% 10% (2014/05/06 - 2019/05/06)
+   14% 8%  41% (2014/05/06 - 2018/12/31)
+   You can see the big difference
+   
+   So the best variable combination varies heavily based on the provided data shape.
+4) Technically we should be able to calculate all cases 100^3 to count 
+   how many times strategy wins vs holding wins. And how much each of them win. 
+   
+ 
+ To be honest, we haven't think these
+ 1) whether 5 years data is good enough
+ 2) commission fee/tax when we sell
+ 
+ The more I look at this, the more I feel I probably just want to hold it. 
+ But the big resistance from my heart is "Do I really hold it even if it has drop more than 50% ?"
+ 
+ 
+   
+   
+   

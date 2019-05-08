@@ -1,0 +1,39 @@
+This is with TQQQ date from 2014/05/06 - 2019/05/06
+2019/05/06 also most reaches its previous high
+
+for (double i = 0.05; i <= 0.5; i+=0.01) { // minimumDownPercentage
+			for (double j = 0.05; j <= 0.5; j+=0.01) { // sellTriggerPercentage
+-----------------------------------
+Best params : minimumDownPercentage : 0.4200000000000002 sellTriggerPercentage 0.3000000000000001
+Best strategy profit : 55.050000000000004
+Holding profit : 51.04
+----------------------------------- best case ------------------------------
+There are 2 transaction happened in total
+Buy date : 21-Aug-2015 | Buy Price : 15.32 | Buy Reason : High 20-Jul-2015 21.2333 Low 08-May-2014 9.7
+Sell date : 24-Oct-2018 | Sell Price : 48.92 | Sell Reason : Profit Taking
+Buy date : 18-Jan-2019 | Buy Price : 44.91 | Buy Reason : High 29-Aug-2018 72.5 Low 24-Dec-2018 30.39
+Sell date : NO SELL DATE | Sell Price : 66.36 | Sell Reason : null
+Calculating strategy profit ......
+Calculating holding profit ......
+Best strategy profit : 55.050000000000004
+Holding profit : 51.04
+
+
+for (double i = 0.05; i <= 0.5; i+=0.01) { // minimumDownPercentage
+			for (double j = 0.05; j <= 0.5; j+=0.01) { // sellTriggerPercentage
+				for (double k = 0.1; k <= 0.5; k+=0.01) { // upPercentageToBuy
+
+-----------------------------------
+Best params : minimumDownPercentage : 0.4200000000000002 sellTriggerPercentage 0.3000000000000001 upPercentageToBuy0.1
+Best strategy profit : 64.1
+Holding profit : 51.04
+----------------------------------- best case ------------------------------
+There are 2 transaction happened in total
+Buy date : 21-Aug-2015 | Buy Price : 15.32 | Buy Reason : High 20-Jul-2015 21.2333 Low 08-May-2014 9.7
+Sell date : 24-Oct-2018 | Sell Price : 48.92 | Sell Reason : Profit Taking
+Buy date : 26-Dec-2018 | Buy Price : 35.86 | Buy Reason : High 29-Aug-2018 72.5 Low 24-Dec-2018 30.39
+Sell date : NO SELL DATE | Sell Price : 66.36 | Sell Reason : null
+Calculating strategy profit ......
+Calculating holding profit ......
+Best strategy profit : 64.1
+Holding profit : 51.04
